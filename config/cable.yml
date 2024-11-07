@@ -1,5 +1,6 @@
 development:
   adapter: async
+  channel_prefix: action_cable_chat_app_development
 
 test:
   adapter: test
