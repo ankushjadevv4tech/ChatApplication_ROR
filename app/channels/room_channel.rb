@@ -1,6 +1,5 @@
 class RoomChannel < ApplicationCable::Channel
   def subscribed
-    byebug
     stream_from "room_#{params[:room]}"
   end
 

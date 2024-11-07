@@ -21,6 +21,8 @@ gem 'signet'
 gem 'faraday'
 gem 'net-http'
 gem 'json'
+gem 'dotenv-rails', groups: [:development, :test]
+
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
